@@ -1,0 +1,13 @@
+# Based on https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet
+net: "train_val.prototxt"
+display: 50
+base_lr: 0.01
+lr_policy: "poly"
+power: 1
+max_iter: 28037
+momentum: 0.9
+weight_decay: 0.0002
+snapshot_prefix: "initial_googlenet_random"
+solver_mode: CPU
+test_iter: 90
+test_interval: 560

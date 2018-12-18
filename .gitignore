@@ -1,0 +1,14 @@
+data/imgs/
+data/train.txt
+data/val.txt
+data/train_lmdb/
+data/val_lmdb/
+data/mean.binaryproto
+*_iter_*.caffemodel
+*.solverstate
+test_*.csv
+train_loss.csv
+*.log
+__pycache__
+deploy*/
+.ipynb_checkpoints/

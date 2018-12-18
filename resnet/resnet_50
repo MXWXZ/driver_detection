@@ -1,0 +1,3 @@
+cd $PBS_O_WORKDIR
+caffe train -solver solver_50.prototxt -weights ~/data/resnet_50.caffemodel 2>&1 | tee resnet_50.log
+# last line

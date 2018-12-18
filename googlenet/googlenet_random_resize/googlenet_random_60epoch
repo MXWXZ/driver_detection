@@ -1,0 +1,3 @@
+cd $PBS_O_WORKDIR
+caffe train -solver solver_60epoch.prototxt -weights ~/data/bvlc_googlenet.caffemodel 2>&1 | tee googlenet_random_60epoch.log
+# last line
